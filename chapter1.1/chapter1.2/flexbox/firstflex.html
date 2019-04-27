@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+
+      .flex-container{
+        display: flex;
+        background-color: lightblue;
+      }
+      .flex-container>div{
+        background-color:#f1f1f1 ;
+        margin:auto;
+        padding: 20px;
+        font-size: 36px;
+    }
+@media(max-width:800px){
+  .game{
+    background-color: green;
+    flex-direction:column;
+  }
+}
+
+    </style>
+    <title>Flextricks</title>
+  </head>
+  <body>
+    <div class="flex-container game">
+      <div>Name 1 </div>
+      <div> Name 2 </div>
+      <div>Name 3  </div>
+
+
+    </div>
+  </body>
+</html>
