@@ -1,0 +1,11 @@
+.flex-container{
+  display: flex;
+  background-color: lightblue;
+}
+.flex-container>div{
+  background-color: white;
+  margin:auto;
+  padding: 20px;
+  font-size: 36px;
+
+}

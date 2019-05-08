@@ -1,0 +1,20 @@
+syntax = "proto3";
+package say_thanks;
+
+message SayThanksMessageObject{
+	string task_id = 1; // unique task slug
+	int64 ct = 2; // unix timestamp, for message creation
+	string msg_type = 3; // assign/validate :- assign(create task for user), validate(validate task rules for the user. Task assignment will not be there)
+	int64 auth_id = 4 ; // user auth id
+	SayThanksAttrObject at = 5 ;// Say Thanks attribute object
+}
+
+message SayThanksAttrObject{
+    string friend_name = 1;
+    int64 friend_auth_id = 2;
+    string friend_mobile_number = 3;
+    string friend_img = 4;
+    string user_name = 5;
+    string user_mobile_number = 6;
+    string client_id = 7; // transaction id
+}
