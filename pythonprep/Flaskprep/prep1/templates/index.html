@@ -1,0 +1,12 @@
+{% extends "structure.html" %}
+
+{% block heading%}
+First Page
+{% endblock %}
+
+{% block body %}
+<form action="{{url_for('hello')}}" method="get">
+  <input type="text" name="name" placeholder="Enter your name" value="">
+<input type="submit" name="" value="submit">
+</form>
+{% endblock %}
