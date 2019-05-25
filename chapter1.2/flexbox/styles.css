@@ -1,0 +1,41 @@
+.menu-container{
+  display:flex;
+  justify-content: center;
+  color:#ffff;
+  background-color: blue;
+  padding:20px;
+}
+.menu{
+  border:1px solid white;
+  width:900px;
+  display: flex;
+  justify-content: space-between;
+}
+.links{
+  display:flex;
+  border: 1px solid #fff;
+  justify-content: space-between;
+
+}
+.login{
+  margin-left: 20px;
+}
+.header-container{
+  display: flex;
+  justify-content: center;
+  color: #5995DA;
+  background-color: #D6E9FE;
+}
+.header{
+display: flex;
+border:1px solid white;
+justify-content: space-around;
+align-items: center;
+width: 900px;
+height: 300px;
+}
+.vis{
+  display:flex;
+  justify-content: flex-start;
+  border:1px solid white;
+}
